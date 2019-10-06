@@ -1,0 +1,827 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0
+
+}
+
+
+h1, h2, h3, h4, h5, h6, p, li, a, span, input {
+    color: #263056;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1, "onum" 1, "pnum" 1;
+    font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1, "onum" 1, "pnum" 1;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+
+h1 {
+  font-family: 'Martel', serif;
+  color: #263056;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Chivo', sans-serif;
+  color: #263056;
+  font-size: 1.1rem;
+  line-height: 1.55;
+}
+
+hr {
+  margin-top: 10px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #FF6D70;
+  max-width: 60px;
+  margin-left: 0;
+  margin-right: auto
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+img {
+    display: block;
+    width: 100%
+}
+
+.head-image{
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+
+* , * :before, * :after {
+    box-sizing: inherit}
+
+main.body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px
+}
+
+main.body::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+main.body article {
+    float: left;
+    width: 100%
+}
+
+@media only screen and (min-width: 0px) {
+    main.body article {
+        margin-top: 40px;
+        margin-bottom: 40px
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    main.body article {
+        margin-top: 60px;
+        margin-bottom: 60px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    main.body article {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 80px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    main.body article:first-of-type {
+        margin-top: 40px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .title {
+        width: calc(35% - 25px);
+        float: left;
+        margin-left: 20px;
+        left: calc(0% - 20px + 20px);
+        position: relative;
+        margin-top: 0
+        background-color: #F0EDED ;
+    }
+}
+
+main.body .image-wrapper {
+
+}
+
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-zero {
+        left: calc(0% - 20px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-one {
+        left: calc(8.3333333333% - 21.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-two {
+        left: calc(16.6666666667% - 23.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-three {
+        left: calc(25% - 25px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-four {
+        left: calc(33.3333333333% - 26.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-five {
+        left: calc(41.6666666667% - 28.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-six {
+        left: calc(50% - 30px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-seven {
+        left: calc(58.3333333333% - 31.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-eight {
+        left: calc(66.6666666667% - 33.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-nine {
+        left: calc(75% - 35px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-ten {
+        left: calc(83.3333333333% - 36.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-eleven {
+        left: calc(91.6666666667% - 38.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-twelve {
+        left: calc(100% - 40px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-one {
+        left: calc(-8.3333333333% - 18.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-two {
+        left: calc(-16.6666666667% - 16.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-three {
+        left: calc(-25% - 15px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-four {
+        left: calc(-33.3333333333% - 13.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-five {
+        left: calc(-41.6666666667% - 11.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-six {
+        left: calc(-50% - 10px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-seven {
+        left: calc(-58.3333333333% - 8.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-eight {
+        left: calc(-66.6666666667% - 6.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-nine {
+        left: calc(-75% - 5px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-ten {
+        left: calc(-83.3333333333% - 3.3333333333px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-eleven {
+        left: calc(-91.6666666667% - 1.6666666667px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-shift-minus-twelve {
+        left: calc(-100% - 0px + 20px);
+        position: relative
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-one {
+        width: calc(8.3333333333% - 21.6666666667px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-two {
+        width: calc(16.6666666667% - 23.3333333333px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-three {
+        width: calc(25% - 25px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-four {
+        width: calc(33.3333333333% - 26.6666666667px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-five {
+        width: calc(41.6666666667% - 28.3333333333px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-six {
+        width: calc(50% - 30px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-seven {
+        width: calc(58.3333333333% - 31.6666666667px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-eight {
+        width: calc(66.6666666667% - 33.3333333333px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-nine {
+        width: calc(75% - 35px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-ten {
+        width: calc(83.3333333333% - 36.6666666667px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-eleven {
+        width: calc(91.6666666667% - 38.3333333333px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-column-twelve {
+        width: calc(100% - 40px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+.header-nav-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px
+}
+
+.header-nav-wrapper::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+@media only screen and (min-width: 0px) {
+    .header-nav-wrapper {
+        padding-top: 60px;
+        padding-bottom: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .header-nav-wrapper {
+        padding-top: 40px;
+        padding-bottom: 60px
+    }
+}
+
+header h1 {
+    line-height: 1.3;
+    border-top: 1px solid #FF6D70;
+    padding-top: 0.5rem
+}
+
+main.body h1 {
+    line-height: 1
+}
+
+@media only screen and (min-width: 0px) {
+    main.body h1 {
+        font-size: 1.8rem
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    main.body h1 {
+        font-size: 2rem
+    }
+}
+
+main.body h1 a {
+    text-decoration: none
+}
+
+@media only screen and (min-width: 0px) {
+    header h1 {
+        width: calc(100% - 40px);
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 0.8rem;
+        font-size: 1.8rem;
+        border-bottom: 1px solid #FF6D70;
+        padding-bottom: 0.8rem
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    header h1 {
+        width: calc(83.3333333333% - 36.6666666667px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
+        border-bottom: none;
+        padding-bottom: 0
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    header h1 {
+        width: calc(50% - 30px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(0% - 20px + 40px);
+        font-size: 1.9rem;
+        margin-bottom: 0
+    }
+}
+
+header h1 a {
+    text-decoration: none
+}
+
+header h1 a:hover {
+    color: #666
+}
+
+header p {
+    border-top: 1px solid #FF6D70;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5
+}
+
+@media only screen and (min-width: 0px) {
+    header p {
+        width: calc(100% - 40px);
+        float: left;
+        margin-left: 20px;
+        display: none;
+        margin-bottom: 1rem
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    header p {
+        width: calc(83.3333333333% - 36.6666666667px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
+        display: block
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    header p {
+        width: calc(41.6666666667% - 28.3333333333px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(0% - 20px + 40px);
+        margin-bottom: 0
+    }
+}
+
+.header-nav-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px
+}
+
+.header-nav-wrapper::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+@media only screen and (min-width: 0px) {
+    .header-nav-wrapper {
+        padding-top: 60px;
+        padding-bottom: 20px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .header-nav-wrapper {
+        padding-top: 40px;
+        padding-bottom: 60px
+    }
+}
+
+a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .7s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='#FF6D70' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 23px;
+    background-size: auto 3px;
+    background-repeat: repeat-x;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.background-overlay {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    pointer-events: none;
+    cursor: e-resize
+}
+
+.background-overlay.open {
+    background-color: rgba(0, 0, 0, 0.8);
+    pointer-events: auto
+}
+
+section.about {
+    position: fixed;
+    z-index: 102;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: white;
+    overflow-y: scroll;
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%);
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53)
+}
+
+@media only screen and (min-width: 0px) {
+    section.about {
+        padding-left: 40px;
+        padding-right: 20px;
+        max-width: 90%
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    section.about {
+        padding-left: 60px;
+        padding-right: 60px;
+        max-width: 400px
+    }
+}
+
+section.about.open {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%)
+}
+
+section.about h1 {
+    font-family: 'Martel', serif;
+    border-top: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 2rem
+}
+
+@media only screen and (min-width: 0px) {
+    section.about h1 {
+        margin-top: 60px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    section.about h1 {
+        margin-top: 40px
+    }
+}
+
+section.about p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 20px
+}
+
+section.about .close-button {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background: red
+}
+
+.about-pic {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    overflow: hidden;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.13, 0.95, 0.56, 0.99);
+    transition-timing-function: cubic-bezier(0.13, 0.95, 0.56, 0.99);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d
+}
+
+.about-pic.open {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.about-pic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    margin: auto
+}
+
+
+ul.contact {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+ul.contact p {
+    width: 75%;
+    display: inline-block;
+    margin-bottom: 0.5rem
+}
+
+ul.contact p.contact-title {
+    width: 20%;
+    margin-left: 0;
+    margin-right: 5%;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: left
+}
+
+@media only screen and (min-width: 0px) {
+    nav {
+        width: calc(100% - 40px);
+        float: left;
+        margin-left: 20px
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    nav {
+        width: calc(83.3333333333% - 36.6666666667px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(8.3333333333% - 21.6666666667px + 40px)
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    nav {
+        width: calc(8.3333333333% - 21.6666666667px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(0% - 20px + 40px)
+    }
+}
+
+nav ul {
+    mix-blend-mode: multiply;
+    position: fixed;
+    z-index: 100;
+    padding-top: 1.2rem;
+    padding-bottom: 0.9rem;
+    width: inherit
+}
+
+@media only screen and (min-width: 0px) {
+    nav ul {
+        top: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    nav ul {
+        top: auto;
+        display: block;
+        border-top: 1px solid #FF6D70;
+        background-color: #FF6D70;
+
+    }
+}
+
+nav li {
+    padding-bottom: 1.6rem
+}
+
+nav a, nav span {
+    font-family: 'Chivo', sans-serif;
+    -webkit-font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1, "pnum" 1;
+    font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1, "pnum" 1;
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    left: 0;
+    margin-right: 5px
+}
+
+@media only screen and (min-width: 0px) {
+    nav a, nav span {
+        margin-left: 3px
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    nav a, nav span {
+        margin-left: 0
+    }
+}
+
+
+nav a:hover::after, nav span:hover::after {
+    opacity: 1
+}
